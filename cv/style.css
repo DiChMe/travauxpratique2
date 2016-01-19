@@ -1,0 +1,29 @@
+div.idzone{
+	float: right;
+	border-style: solid;
+	width: 240px;
+	background-color:#CEECF5;
+	color:#848484;
+	font-family: sans-serif;
+}
+
+div.cvzone{
+	float:center;
+	width:500px;
+	}
+
+p.img {
+	text-align: center
+}
+
+h1.cvid{
+	text-align: center;
+	font-family: sans-serif;
+	
+}
+
+h1.cv1{
+	text-align: center;
+	background-color:#F5ECCE;
+	font-family: sans-serif;
+}
