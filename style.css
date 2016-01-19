@@ -1,0 +1,51 @@
+td ,th
+{
+	border: 1px solid black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px
+
+}
+
+tr{
+	background-color: grey;
+}
+/*lorsqu'on passe le curseur sur une partie de tableau : chgt de couleur + police en gras */ 
+.pointeurtableau:hover{
+	background-color: #FFF;
+	font-weight: bold;
+
+
+}
+
+table{
+	border-collapse: collapse;
+	margin-left: 200px;
+	margin-top: 50px;
+	width: 40%;
+
+}
+
+.lientableau {
+	/*text-decoration: none;*/
+	color: black;
+}
+.lientableau:hover{
+	color: red;
+}
+.leintableau:after{
+	color: grey;
+}
+
+caption {
+	font-size: large;
+	font-weight: bold;
+}
+
+.gestion
+{
+	width: 50%;
+	margin-left: 200px;
+	margin-top: 200px;  
+
+}
