@@ -10,8 +10,8 @@ div.idzone{
 
 .cvzone{
 	width:70%;
-	border-style: 
-	;
+	
+	
 }
 
 p.img {
@@ -39,7 +39,9 @@ h1.cv1{
 }
 div.contenu{
 	margin-top: 90px;
-	border-style:;
+	border-style: solid grey;
+   	box-shadow: 3px 3px 5px 6px #ccc;
+	width: 60%;
 }
 
 ul.para{
