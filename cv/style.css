@@ -6,6 +6,7 @@ div.idzone{
 	background-color:#CEECF5;
 	color:#848484;
 	font-family: Arial sans-serif;
+	margin-top: 20px;
 }
 
 .cvzone{
@@ -42,6 +43,9 @@ div.contenu{
 	border-style: solid grey;
    	box-shadow: 3px 3px 5px 6px #ccc;
 	width: 60%;
+	margin-left: 90px;
+	padding: 20px 20px 20px 20px;
+
 }
 
 ul.para{
