@@ -1,3 +1,5 @@
+/**********************partie css des pages groupes*************************************/
+
 td ,th
 {
 	border: 1px solid black;
@@ -11,18 +13,30 @@ tr{
 	background-color: grey;
 }
 /*lorsqu'on passe le curseur sur une partie de tableau : chgt de couleur + police en gras */ 
+
+
 .pointeurtableau:hover{
 	background-color: #FFF;
 	font-weight: bold;
 
 
 }
+#tableau{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
 
 table{
 	border-collapse: collapse;
-	margin-left: 200px;
-	margin-top: 50px;
-	width: 40%;
+	/*margin-left: 200px;
+	margin-top: 50px;*/
+	/*margin: 50px 0px 50px 150px;*/
+	margin: 0 auto;
+
+	/*padding: 20px 20px 50px 50px;*/
+	width: 70%;
+	text-align: center;
+
 
 }
 
@@ -45,7 +59,86 @@ caption {
 .gestion
 {
 	width: 50%;
-	margin-left: 200px;
-	margin-top: 200px;  
+	/*margin-left: 200px;
+	margin-top: 200px; */ 
+	/*margin-left: 200px;
+	margin-top: 200px; */ 
 
+}
+
+/************************partie css des pages cv************************************/
+
+
+div.idzone{
+	float: right;
+	border-style: solid;
+	width: 30%;
+	background-color:#CEECF5;
+	color:#848484;
+	font-family: Arial sans-serif;
+	margin-top: 20px;
+}
+
+.cvzone{
+	width:68%;
+	/*padding-right: 20px;*/
+	
+}
+
+
+p.img {
+	text-align: center;
+}
+img {
+
+	max-width: 40%;
+	height: auto;
+}
+
+h1.cvid{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 20px;
+
+	
+}
+
+h1.cv1{
+	text-align: center;
+	background-color:#F5ECCE;
+	font-family: sans-serif;
+
+}
+
+
+ul.para{
+	font-size: 20px;
+	font-family: sans-serif;
+
+}
+
+strong.annee{
+	color:#8A4B08;
+}
+
+/* positionnement du bouton suivant et precedent */
+
+p.imgdefi{
+	text-align: center;
+	margin-top: 100px;
+
+}
+
+
+
+/************************css pour le contenu de la page**************************/
+
+div.contenu{
+	margin-top: 90px;
+	border-style: solid grey;
+   	box-shadow: 3px 3px 5px 6px #ccc;
+	width: 60%;
+	margin-left: 90px;
+	padding: 20px 20px 20px 20px;
+	margin-bottom: 90px;
 }
